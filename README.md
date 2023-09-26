@@ -3,7 +3,7 @@ Data Augmentation for yolo object detection.
 #### Albumentations documentation: https://albumentations.ai/docs/
 ----
 ## How to install
-1. Make a venv, access https://docs.python.org/pt-br/3/tutorial/venv.html
+1. Make a venv, access https://docs.python.org/3/tutorial/venv.html
 2. Active venv.
 3. Install all packages:
 ```
@@ -23,7 +23,7 @@ Python vizualize.py
 ----
 ## How to change the number of generated images
 1. Open Augment.py.
-2. change num_of_imgs (line 71): 
+2. Change num_of_imgs (line 71): 
 ```
 apply_augmentations_and_save(input_folder= "input", output_folder = "output", num_of_imgs = 3 )
 ```
