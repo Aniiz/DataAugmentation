@@ -1,9 +1,10 @@
 # DataAugmentation
 Data Augmentation for yolo object detection.
-#### Albumentations documentation: https://albumentations.ai/docs/
+#### Albumentations [albumentations.ai documentation](https://albumentations.ai/docs/)
+#### Visual Exemple: [Preview](https://portifolio-991f5.web.app/projetos/dataAugmentation)
 ----
 ## How to install
-1. Make a venv, access https://docs.python.org/3/tutorial/venv.html
+1. Make a venv, access [docs.python](https://docs.python.org/3/tutorial/venv.html)
 2. Active venv.
 3. Install all packages:
 ```
@@ -29,7 +30,7 @@ apply_augmentations_and_save(input_folder= "input", output_folder = "output", nu
 ```
 ----
 ## How to add more modifiers
-1. Access https://albumentations.ai/docs/getting_started/transforms_and_targets/
+1. Access [transformers](https://albumentations.ai/docs/getting_started/transforms_and_targets/)
 2. Open Augment.py and add your modifier (line 22):
 ```
 transform = A.Compose(
