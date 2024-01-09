@@ -1,7 +1,7 @@
 # DataAugmentation
 Data Augmentation for yolo object detection.
 #### Albumentations [albumentations.ai documentation](https://albumentations.ai/docs/)
-#### Visual Exemple: [Preview](https://portifolio-991f5.web.app/projetos/dataAugmentation)
+
 ----
 ## How to install
 1. Make a venv, access [docs.python](https://docs.python.org/3/tutorial/venv.html)
