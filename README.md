@@ -38,7 +38,7 @@ apply_augmentations_and_save(input_folder= "input", output_folder = "output", nu
 ```
 ----
 ## How to add more modifiers
-1. Access [transformers](https://albumentations.ai/docs/getting_started/transforms_and_targets/)
+1. Access [transformers](https://albumentations.ai/docs/reference/supported-targets-by-transform/)
 2. Open Augment.py and add your modifier (line 22):
 ```
 transform = A.Compose(

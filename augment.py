@@ -18,7 +18,7 @@ def apply_augmentations_and_save(input_folder, output_folder, num_of_imgs):
         txt_file_path = os.path.join(input_folder, os.path.splitext(image_file)[0] + ".txt")
         annotations_list, original_class_labels = read_txt_annotations(txt_file_path)
 
-        # To access more transforms, visit: https://albumentations.ai/docs/getting_started/transforms_and_targets/
+        # To access more transforms, visit: https://albumentations.ai/docs/reference/supported-targets-by-transform/
         transform = A.Compose(
             [
                 A.Rotate(limit=10, p=0.5, border_mode=cv2.BORDER_CONSTANT),
