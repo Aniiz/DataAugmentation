@@ -62,10 +62,10 @@ def apply_augmentations_and_save(input_folder, output_folder, num_of_imgs):
                         y_center = (y_min + y_max) / 2.0
                         width = x_max - x_min
                         height = y_max - y_min
-                        txt_file.write(f"{label} {x_center} {y_center} {width} {height}\n")
+                        txt_file.write(f"{int(label)} {x_center} {y_center} {width} {height}\n")
 
             except ValueError:
                 print(f"Erro ao processar o arquivo: {image_file}")
                 break
 
-apply_augmentations_and_save(input_folder= "input", output_folder = "output", num_of_imgs = 3 )
+apply_augmentations_and_save(input_folder= "input", output_folder = "output", num_of_imgs = 20 )
