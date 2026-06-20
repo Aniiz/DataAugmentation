@@ -10,6 +10,14 @@ Data Augmentation for yolo object detection.
 ```
 pip install -r requirements.txt
 ```
+> **Linux only:** To display the visualization window, install tkinter via your package manager:
+> ```
+> # Arch/CachyOS
+> sudo pacman -S tk
+> 
+> # Ubuntu/Debian
+> sudo apt install python3-tk
+> ```
 ----
 ## How to use
 1. Put your images and labels in input directory.
